@@ -71,7 +71,7 @@
         	.container {
         		max-width: 768px;
         		margin: 0 auto;
-                padding: 30px 0;
+                padding: 30px 10px;
         	}
         	.row {
         		margin-left: -20px;
@@ -87,6 +87,11 @@
         	.col-6 {
         		width: 50%;
         	}
+            @media screen and (max-width: 768px) {
+                .col-6 {
+                    width: 100%;
+                }
+            }
         	/* /Grid */
 
         	/* Text */
@@ -103,10 +108,10 @@
                 box-shadow: 0 1px 3px rgba(38,50,56,.3);
             }
             .card-body {
-                padding: 24px 16px;
+                padding: 24px 20px;
             }
             .card-footer {
-                padding: 0 8px 8px;
+                padding: 0 12px 8px;
             }
             .card-footer a {
                 display: inline-block;
@@ -131,10 +136,6 @@
         					<div class="col-6">
         						<h1>Tommy Ekstrand <small>Developer</small></h1>
         						<p class="h1-subheading">TEks Design</p>
-        					</div>
-        					<div class="col-6 text-right social">
-        						<p><a href="https://github.com/tekstrand">GitHub</a></p>
-                                <p><a href="https://www.linkedin.com/in/tekstrand">LinkedIn</a></p>
         					</div>
         				</div>
                     </header>
